@@ -21,9 +21,11 @@ export class AppComponent implements AfterViewInit {
   totalPrice: number = 0;
 
   private catalogue: Article[] = [
-    { name: 'Classy Crab (red)', ean: '7601234567890', image: 'assets/classy_crab_red.png', price: 10 },
-    { name: 'Classy Crab (blue)', ean: '7601234561232', image: 'assets/classy_crab_blue.png', price: 10 },
-    { name: 'Classy Crab (gold, ltd. ed.)', ean: '7601234564561', image: 'assets/classy_crab_gold.png', price: 50 }
+    { name: 'gouri', ean: '7601234567890', image: 'assets/classy_crab_red.png', price: 10 },
+    { name: 'Kamlesh', ean: '7601234561232', image: 'assets/classy_crab_blue.png', price: 10 },
+    { name: 'kiran', ean: '7601234564561', image: 'assets/classy_crab_gold.png', price: 50 },
+    { name: 'prachi', ean: '7645678901001', image: 'assets/classy_crab_gold.png', price: 5 },
+     { name: 'ajay', ean: '9780201379624', image: 'assets/classy_crab_red.png', price: 100 },
   ];
 
   private shoppingCart: ShoppingCart;
